@@ -1,0 +1,74 @@
+# Startup
+command = /opt/homebrew/bin/tmux new-session -A -s main
+
+# keybind = global:cmd+grave_accent=toggle_quick_terminal
+# quick-terminal-position = center
+# quick-terminal-size = 95%, 95%
+# quick-terminal-animation-duration = 0.08
+# quick-terminal-autohide = false
+# initial-window = false
+
+# Behaviour
+macos-hidden = always
+confirm-close-surface = false
+clipboard-trim-trailing-spaces = true
+macos-option-as-alt = true
+cursor-style-blink = true
+
+# Window
+window-decoration = none
+window-padding-x = 10
+window-padding-y = 5,10
+window-padding-balance = true
+
+# Background
+background-image = skull.png
+background-image-position = center
+background-image-fit = contain
+background-image-opacity = 0.5
+background-opacity = 0.97
+background-blur-radius = 20
+custom-shader = noise.glsl
+
+# UI colors
+background = #090909
+foreground = #F75049
+cursor-color = #F75049
+cursor-text  = #090909
+selection-background = #F75049
+selection-foreground = #090909
+bold-color = #5EF6FF
+
+# Palette
+# black
+palette = 0  = #090909
+# red
+palette = 1  = #F75049
+# green
+palette = 2  = #1DED83
+# yellow
+palette = 3  = #F0B537
+# blue
+palette = 4  = #2570D4
+# magenta
+palette = 5  = #9D2BF5
+# cyan
+palette = 6  = #5EF6FF
+# white
+palette = 7  = #D6D0D0
+# brightblack
+palette = 8  = #6b6b6b
+# brightred
+palette = 9  = #FF6B63
+# brightgreen
+palette = 10 = #96fac1
+# brightyellow
+palette = 11 = #FFD166
+# brightblue
+palette = 12 = #5B9AFF
+# brightmagenta
+palette = 13 = #C670FF
+# brightcyan
+palette = 14 = #A8FEFF
+# brightwhite
+palette = 15 = #FFFFFF

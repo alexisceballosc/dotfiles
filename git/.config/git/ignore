@@ -1,0 +1,40 @@
+# Claude
+.claude
+
+# macOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Node
+node_modules/
+
+# Logs
+*.log
+*.tmp
+
+# dist / dev / temp / local patterns
+dist/
+dist-*
+*-dist
+dev/
+dev-*
+*-dev
+temp/
+temp-*
+*-temp
+*.temp
+local/
+local-*
+*-local
+*.local

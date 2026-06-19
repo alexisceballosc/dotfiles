@@ -1,0 +1,102 @@
+tap "oven-sh/bun", trusted: true
+# Improved shell history for zsh, bash, fish and nushell
+brew "atuin"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Console Matrix
+brew "cmatrix"
+# Modern, maintained replacement for ls
+brew "eza"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Fast and simple Node.js version manager
+brew "fnm"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Alternative to top/htop
+brew "glances"
+# Render markdown on the CLI
+brew "glow"
+# Lava lamp simulation using metaballs in the terminal
+brew "lavat"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Modern and intuitive terminal-based text editor
+brew "micro"
+# Minimalist GNU for Windows and GCC cross-compilers
+brew "mingw-w64"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# PAM module for reattaching to the user's GUI (Aqua) session
+brew "pam-reattach"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Modern and pretty fancy file manager for the terminal
+brew "superfile"
+# Terminal multiplexer
+brew "tmux"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Utility that prevents the system from going to sleep
+cask "caffeine"
+# Disk space visualiser
+cask "daisydisk"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Web browser
+cask "google-chrome"
+# Desktop automation application
+cask "hammerspoon"
+# Free and open-source media player
+cask "iina"
+# Blocks all Keyboard and TouchBar input
+cask "keyboardcleantool"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
+# Collection of alternate languages for LibreOffice
+cask "libreoffice-language-pack"
+# Tool to control external monitor brightness & volume
+cask "monitorcontrol"
+# Handy utility to manage and customize the notch area
+cask "notchnook"
+# Music streaming service
+cask "spotify"
+# Mesh VPN based on WireGuard
+cask "tailscale-app"
+# Unpacks archive files
+cask "the-unarchiver"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "anthropic.claude-code"
+vscode "biomejs.biome"
+vscode "bradlc.vscode-tailwindcss"
+vscode "dotenv.dotenv-vscode"
+vscode "ecmel.vscode-html-css"
+vscode "golang.go"
+vscode "gruntfuggly.todo-tree"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.vscode-typescript-next"
+vscode "typescriptteam.native-preview"
+vscode "yoavbls.pretty-ts-errors"

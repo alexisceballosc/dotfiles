@@ -1,0 +1,26 @@
+[user]
+	name = Alexis Ceballos
+	email = alexisceballosc@gmail.com
+
+[delta]
+	line-numbers = true
+	hunk-header-style = omit
+	file-style = cyan bold
+	file-decoration-style = cyan ul
+	line-numbers-left-style = brightblack
+	line-numbers-right-style = brightblack
+	line-numbers-zero-style = brightblack
+	plus-style = white "#015e00"
+	plus-emph-style = white bold "#029a00"
+	minus-style = white "#5e0000"
+	minus-emph-style = white bold "#9a0000"
+
+[push]
+	autoSetupRemote = true
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
