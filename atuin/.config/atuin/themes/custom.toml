@@ -1,0 +1,13 @@
+[theme]
+name = "custom"
+
+[colors]
+Base       = "@ansi_(1)"
+Important  = "@ansi_(1)"
+Title      = "@ansi_(7)"
+Annotation = "@ansi_(8)"
+Muted      = "@ansi_(8)"
+Guidance   = "@ansi_(8)"
+AlertError = "@ansi_(9)"
+AlertWarn  = "@ansi_(9)"
+AlertInfo  = "@ansi_(7)"
