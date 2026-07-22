@@ -29,6 +29,8 @@ brew "git-delta"
 brew "glances"
 # Render markdown on the CLI
 brew "glow"
+# Command-line hex viewer
+brew "hexyl"
 # Lava lamp simulation using metaballs in the terminal
 brew "lavat"
 # Lazier way to manage everything docker
@@ -45,6 +47,8 @@ brew "mongosh"
 brew "pam-reattach"
 # Fast, disk space efficient package manager
 brew "pnpm"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # 7-Zip is a file archiver with a high compression ratio
@@ -53,10 +57,10 @@ brew "sevenzip"
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Modern and pretty fancy file manager for the terminal
-brew "superfile"
 # Terminal multiplexer
 brew "tmux"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.

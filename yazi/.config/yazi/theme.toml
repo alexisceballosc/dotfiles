@@ -1,0 +1,116 @@
+[mgr]
+cwd             = { fg = "red" }
+find_keyword    = { fg = "yellow", bold = true, italic = true, underline = true }
+find_position   = { fg = "magenta", bg = "reset", bold = true, italic = true }
+symlink_target  = { fg = "cyan", italic = true }
+marker_copied   = { fg = "green", bg = "green" }
+marker_cut      = { fg = "red", bg = "red" }
+marker_marked   = { fg = "cyan", bg = "cyan" }
+marker_selected = { fg = "yellow", bg = "yellow" }
+count_copied    = { fg = "black", bg = "green" }
+count_cut       = { fg = "black", bg = "red" }
+count_selected  = { fg = "black", bg = "yellow" }
+border_style    = { fg = "darkgray" }
+
+[tabs]
+active   = { fg = "black", bg = "red", bold = true }
+inactive = { fg = "red" }
+
+[mode]
+normal_main = { fg = "black", bg = "red", bold = true }
+normal_alt  = { fg = "red" }
+select_main = { fg = "black", bg = "gray", bold = true }
+select_alt  = { fg = "gray" }
+unset_main  = { fg = "red", bg = "black", bold = true }
+unset_alt   = { fg = "red" }
+
+[indicator]
+preview = { reversed = true }
+
+[status]
+perm_sep        = { fg = "darkgray" }
+perm_type       = { fg = "red" }
+perm_read       = { fg = "yellow" }
+perm_write      = { fg = "red" }
+perm_exec       = { fg = "cyan" }
+progress_normal = { fg = "green", bg = "black" }
+progress_error  = { fg = "yellow", bg = "red" }
+
+[which]
+mask            = { bg = "black" }
+cand            = { fg = "cyan" }
+rest            = { fg = "darkgray" }
+desc            = { fg = "magenta" }
+separator_style = { fg = "darkgray" }
+
+[confirm]
+border  = { fg = "red" }
+title   = { fg = "red" }
+btn_yes = { reversed = true }
+
+[spot]
+border   = { fg = "red" }
+title    = { fg = "red" }
+tbl_col  = { fg = "red" }
+tbl_cell = { fg = "yellow", reversed = true }
+
+[notify]
+title_info  = { fg = "green" }
+title_warn  = { fg = "yellow" }
+title_error = { fg = "red" }
+
+[pick]
+border = { fg = "red" }
+active = { fg = "magenta", bold = true }
+
+[input]
+border   = { fg = "red" }
+selected = { reversed = true }
+
+[cmp]
+border = { fg = "red" }
+active = { reversed = true }
+
+[tasks]
+border  = { fg = "red" }
+hovered = { fg = "magenta", bold = true }
+
+[help]
+border  = { fg = "red" }
+chord   = { fg = "cyan" }
+hovered = { reversed = true, bold = true }
+
+[filetype]
+rules = [
+	{ mime = "image/*", fg = "darkgray" },
+	{ mime = "{audio,video}/*", fg = "darkgray" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "red" },
+	{ mime = "application/{pdf,doc,rtf}", fg = "red" },
+	{ mime = "vfs/{absent,stale}", fg = "darkgray" },
+	{ url = "*", is = "orphan", fg = "red", underline = true },
+	{ url = "*", is = "exec", fg = "red" },
+	{ url = "*", is = "dummy", bg = "red" },
+	{ url = "*/", is = "dummy", bg = "red" },
+	{ url = "*/", fg = "gray" },
+]
+
+[icon]
+globs = []
+dirs  = []
+files = []
+exts  = []
+conds = [
+	{ if = "orphan", text = "", fg = "red" },
+	{ if = "link", text = "", fg = "cyan" },
+	{ if = "block", text = "", fg = "darkgray" },
+	{ if = "char", text = "", fg = "darkgray" },
+	{ if = "fifo", text = "", fg = "darkgray" },
+	{ if = "sock", text = "", fg = "darkgray" },
+	{ if = "sticky", text = "", fg = "darkgray" },
+	{ if = "dummy", text = "", fg = "red" },
+
+	{ if = "dir & hovered", text = "", fg = "gray" },
+	{ if = "dir", text = "", fg = "gray" },
+	{ if = "exec", text = "", fg = "red" },
+	{ if = "!dir", text = "", fg = "red" },
+]
