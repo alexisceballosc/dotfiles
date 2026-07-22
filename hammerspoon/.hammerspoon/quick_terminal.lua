@@ -1,6 +1,6 @@
 local GHOSTTY = "com.mitchellh.ghostty"
 
-local PADDING = 0.02
+local PADDING = 0.025
 local BIG_WIDTH = 0.55
 local BIG_HEIGHT = 0.80
 
