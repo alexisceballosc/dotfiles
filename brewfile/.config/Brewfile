@@ -31,8 +31,6 @@ brew "glances"
 brew "glow"
 # Command-line hex viewer
 brew "hexyl"
-# Lava lamp simulation using metaballs in the terminal
-brew "lavat"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Simple terminal UI for git commands

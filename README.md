@@ -2,6 +2,9 @@
 
 Personal dotfiles for macOS. If you're on Linux or Windows, you're on your own.
 
+> [!NOTE]
+> I know the wallpapers are heavy for GitHub. Uploading them somewhere else and linking back is effort I'm not putting in. It's my repo, I do what I want.
+
 ## Install
 
 **1. Install [1Password](https://1password.com/downloads/mac/) and sign in**
