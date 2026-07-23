@@ -1,0 +1,6 @@
+[mgr]
+prepend_keymap = [
+	{ on = "e", run = "shell '${EDITOR:-vi} \"$@\"' --block", desc = "Edit with $EDITOR" },
+	{ on = "o", run = "open", desc = "Open with VS Code" },
+	{ on = "<Enter>", run = "open --interactive", desc = "Open interactively" },
+]

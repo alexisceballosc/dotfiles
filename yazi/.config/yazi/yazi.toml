@@ -1,6 +1,28 @@
 [mgr]
 show_hidden = true
 
+[opener]
+open = [
+	{ run = 'code "$@"', orphan = true, desc = "Open with VS Code" },
+]
+reveal = [
+	{ run = 'open -R "$@"', orphan = true, desc = "Reveal in Finder" },
+]
+terminal-v = [
+	{ run = 'tmux split-window -v -c "$([ -d "$1" ] && echo "$1" || dirname "$1")" && ya emit quit', orphan = true, desc = "Split terminal (vertical)" },
+]
+terminal-h = [
+	{ run = 'tmux split-window -h -c "$([ -d "$1" ] && echo "$1" || dirname "$1")" && ya emit quit', orphan = true, desc = "Split terminal (horizontal)" },
+]
+terminal-window = [
+	{ run = 'tmux new-window -c "$([ -d "$1" ] && echo "$1" || dirname "$1")" && ya emit quit', orphan = true, desc = "New terminal window" },
+]
+
+[open]
+prepend_rules = [
+	{ mime = "*", use = ["open", "reveal", "terminal-v", "terminal-h", "terminal-window"] },
+]
+
 [plugin]
 prepend_previewers = [
 	{ url = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"' },
