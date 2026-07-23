@@ -1,0 +1,6 @@
+{
+    "\u001b[1;3A": "MoveLinesUp",
+    "\u001b[1;3B": "MoveLinesDown",
+    "Ctrl-a": "StartOfLine",
+    "Ctrl-e": "EndOfLine"
+}
