@@ -86,4 +86,4 @@ set -U fish_pager_color_selected_completion red
 set -U fish_pager_color_description red
 set -U fish_pager_color_secondary_description red
 set -U fish_pager_color_selected_description white
-source /Users/alexisceballos/.config/op/plugins.sh
+source $HOME/.config/op/plugins.sh
