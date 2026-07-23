@@ -19,8 +19,12 @@
 	autoSetupRemote = true
 
 [credential "https://github.com"]
-	helper = 
+	helper =
 	helper = !op plugin run -- gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
+	helper =
 	helper = !op plugin run -- gh auth git-credential
+
+[filter "dockerconfig"]
+	clean = sed '/currentContext/d'
+	smudge = cat
