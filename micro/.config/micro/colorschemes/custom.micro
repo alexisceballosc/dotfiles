@@ -38,7 +38,7 @@ color-link todo                    "brightred,"
 
 # Git / diff
 color-link diff-added              "green,"
-color-link diff-modified           "brightred,"
+color-link diff-modified           "yellow,"
 color-link diff-deleted            "red,"
 color-link gutter-info             "cyan,"
 color-link gutter-error            "red,"

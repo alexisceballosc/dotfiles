@@ -5,8 +5,8 @@
 [delta]
 	line-numbers = true
 	hunk-header-style = omit
-	file-style = cyan bold
-	file-decoration-style = cyan ul
+	file-style = cyan
+	file-decoration-style = brightblack ul
 	line-numbers-left-style = brightblack
 	line-numbers-right-style = brightblack
 	line-numbers-zero-style = brightblack
