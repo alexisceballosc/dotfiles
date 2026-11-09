@@ -2,5 +2,6 @@
     "colorscheme": "custom",
     "diffgutter": true,
     "infobar": false,
-    "mkparents": true
+    "mkparents": true,
+    "reload": "auto"
 }
