@@ -3,8 +3,6 @@ tap "oven-sh/bun", trusted: true
 brew "atuin"
 # Official Amazon AWS command-line interface
 brew "awscli"
-# Console Matrix
-brew "cmatrix"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -25,6 +23,8 @@ brew "fzf"
 brew "gh"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Git extension for versioning large files
+brew "git-lfs"
 # Alternative to top/htop
 brew "glances"
 # Render markdown on the CLI
@@ -41,6 +41,8 @@ brew "micro"
 brew "mingw-w64"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
+# Text-based UI library
+brew "ncurses"
 # PAM module for reattaching to the user's GUI (Aqua) session
 brew "pam-reattach"
 # Fast, disk space efficient package manager
