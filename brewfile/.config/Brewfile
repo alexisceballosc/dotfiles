@@ -75,6 +75,8 @@ cask "1password-cli"
 cask "arduino-ide"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Disk space visualiser
