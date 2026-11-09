@@ -3,6 +3,8 @@ tap "oven-sh/bun", trusted: true
 brew "atuin"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -37,8 +39,6 @@ brew "lazydocker"
 brew "lazygit"
 # Modern and intuitive terminal-based text editor
 brew "micro"
-# Minimalist GNU for Windows and GCC cross-compilers
-brew "mingw-w64"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Media player based on MPlayer and mplayer2
@@ -66,15 +66,21 @@ brew "yazi"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
-brew "oven-sh/bun/bun"
+brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Electronics prototyping platform
+cask "arduino-ide"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Disk space visualiser
 cask "daisydisk"
+# Web browser
+cask "firefox"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -91,10 +97,15 @@ cask "libreoffice"
 cask "libreoffice-language-pack"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
-# Handy utility to manage and customize the notch area
 cask "notchnook"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Home media player
+cask "plex"
 # Music streaming service
 cask "spotify"
+# Video game digital distribution service
+cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Unpacks archive files
@@ -104,6 +115,7 @@ cask "visual-studio-code"
 vscode "anthropic.claude-code"
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
+vscode "cweijan.vscode-office"
 vscode "dotenv.dotenv-vscode"
 vscode "ecmel.vscode-html-css"
 vscode "golang.go"
@@ -111,6 +123,5 @@ vscode "gruntfuggly.todo-tree"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.makefile-tools"
-vscode "ms-vscode.vscode-typescript-next"
 vscode "typescriptteam.native-preview"
 vscode "yoavbls.pretty-ts-errors"
