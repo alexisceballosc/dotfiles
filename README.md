@@ -33,5 +33,5 @@ brew bundle --file ~/dotfiles/brewfile/.config/Brewfile
 **5. Stow everything**
 
 ```sh
-cd ~/dotfiles && stow *
+cd ~/dotfiles && stow */
 ```
