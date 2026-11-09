@@ -1,3 +1,4 @@
 docker/.docker/config.json filter=dockerconfig
 neo/.local/bin/neo filter=lfs diff=lfs merge=lfs -text
+arlo-term/.local/bin/arlo-term filter=lfs diff=lfs merge=lfs -text
 resources/wallpapers/*.png filter=lfs diff=lfs merge=lfs -text

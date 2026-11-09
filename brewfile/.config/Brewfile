@@ -41,6 +41,8 @@ brew "micro"
 brew "mingw-w64"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
 # Text-based UI library
 brew "ncurses"
 # PAM module for reattaching to the user's GUI (Aqua) session
