@@ -97,7 +97,6 @@ cask "libreoffice"
 cask "libreoffice-language-pack"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
-cask "notchnook"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Home media player
