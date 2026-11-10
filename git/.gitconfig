@@ -18,6 +18,9 @@
 [push]
 	autoSetupRemote = true
 
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
 [filter "dockerconfig"]
 	clean = sed '/currentContext/d'
 	smudge = cat
