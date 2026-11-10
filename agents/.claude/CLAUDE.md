@@ -28,6 +28,7 @@ Project-agnostic preferences. They apply to every project and every agent.
 ## Comments
 
 - Don't comment what the code already says. Often, no comment is best.
+- No narrative comments explaining context, history or reasoning.
 - Most comments should point to the docs rule that justifies the code, or explain why it is the way it is.
 - "Barrido" means a strict comment cleanup: keep only comments that are actually useful, then refactor.
 
