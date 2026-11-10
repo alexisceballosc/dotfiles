@@ -7,9 +7,11 @@ Personal dotfiles for macOS. If you're on Linux or Windows, you're on your own.
 
 ## Install
 
-**1. Install [1Password](https://1password.com/downloads/mac/) and sign in**
+**1. Clone the repo**
 
-SSH keys and secrets are pulled from 1Password at runtime. Nothing works without it.
+```sh
+git clone https://github.com/alexisceballosc/dotfiles.git ~/dotfiles
+```
 
 **2. Install [Homebrew](https://brew.sh)**
 
@@ -17,21 +19,19 @@ SSH keys and secrets are pulled from 1Password at runtime. Nothing works without
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-**3. Clone the repo**
-
-```sh
-git clone https://github.com/alexisceballosc/dotfiles.git ~/dotfiles
-```
-
-**4. Install Homebrew dependencies**
+**3. Install Homebrew dependencies**
 
 ```sh
 brew install stow
 brew bundle --file ~/dotfiles/brewfile/.config/Brewfile
 ```
 
-**5. Stow everything**
+**4. Stow everything**
 
 ```sh
 cd ~/dotfiles && stow */
 ```
+
+**5. Sign in to 1Password**
+
+SSH keys come from the 1Password SSH agent. Git over SSH doesn't work without it.
