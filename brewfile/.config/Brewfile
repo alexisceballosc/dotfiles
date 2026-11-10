@@ -67,8 +67,6 @@ brew "zoxide"
 brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Command-line interface for 1Password
-cask "1password-cli"
 # Electronics prototyping platform
 cask "arduino-ide"
 # Utility that prevents the system from going to sleep
