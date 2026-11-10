@@ -24,6 +24,7 @@ git clone https://github.com/alexisceballosc/dotfiles.git ~/dotfiles
 ```sh
 brew install stow
 brew bundle --file ~/dotfiles/brewfile/.config/Brewfile
+git -C ~/dotfiles lfs pull
 ```
 
 **4. Stow everything**
