@@ -23,6 +23,7 @@ Project-agnostic preferences. They apply to every project and every agent.
 - One commit per change. Don't group changes.
 - Commit messages are a single descriptive line, no body, unless I or the project say otherwise.
 - Only commit when there's something worth saving, it's been validated, or I ask.
+- Corrections to an unpushed commit are amended into it, not added as a new commit.
 - "Correr commits" means splitting pending changes into their own commits.
 
 ## Comments
