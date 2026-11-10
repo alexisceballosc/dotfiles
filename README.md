@@ -20,7 +20,7 @@ SSH keys and secrets are pulled from 1Password at runtime. Nothing works without
 **3. Clone the repo**
 
 ```sh
-git clone https://github.com/alexisceballos/dotfiles.git ~/dotfiles
+git clone https://github.com/alexisceballosc/dotfiles.git ~/dotfiles
 ```
 
 **4. Install Homebrew dependencies**
